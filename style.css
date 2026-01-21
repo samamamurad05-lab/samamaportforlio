@@ -85,6 +85,17 @@ nav a:hover {
     padding: 2rem;
 }
 
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.5);
+    margin-bottom: 1.5rem;
+    animation: fadeIn 1s ease-out;
+}
+
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
