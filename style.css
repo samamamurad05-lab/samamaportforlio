@@ -62,7 +62,7 @@ nav a:hover {
     text-align: center;
     position: relative;
     overflow: hidden;
-    padding-top: 80px;
+    padding: 100px 20px 60px 20px;
 }
 
 .hero::before {
@@ -87,18 +87,21 @@ nav a:hover {
 }
 
 .profile-image {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--primary);
     box-shadow: 0 10px 30px rgba(99, 102, 241, 0.5);
     margin-bottom: 1.5rem;
     animation: fadeIn 1s ease-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
     background: linear-gradient(135deg, var(--primary), var(--accent));
     -webkit-background-clip: text;
@@ -118,9 +121,9 @@ nav a:hover {
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--primary);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     animation: fadeIn 1s ease-out 0.3s both;
 }
 
